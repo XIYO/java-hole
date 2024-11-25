@@ -10,7 +10,7 @@ import java.io.File;
 import java.sql.SQLException;
 import java.util.StringJoiner;
 
-public class Main {
+public class TomcatEmbedApplication {
 
     public static void main(String[] args) throws LifecycleException, SQLException {
         // Tomcat 인스턴스 생성 및 포트 설정
