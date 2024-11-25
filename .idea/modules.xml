@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-hole.iml" filepath="$PROJECT_DIR$/java-hole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tomcat-embed/tomcat-embed.iml" filepath="$PROJECT_DIR$/tomcat-embed/tomcat-embed.iml" />
       <module fileurl="file://$PROJECT_DIR$/tomcat-standard/tomcat-standard.iml" filepath="$PROJECT_DIR$/tomcat-standard/tomcat-standard.iml" />
     </modules>
   </component>

@@ -11,6 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<h1>inner page - inner.jsp</h1>
+<h1>Step04</h1>
 </body>
 </html>

@@ -2,7 +2,7 @@
   Created by IntelliJ IDEA.
   User: xiyo
   Date: 2024-11-25
-  Time: 오후 8:58
+  Time: 오후 8:56
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,6 @@
     <title>Title</title>
 </head>
 <body>
-<h1>hell page - hell.jsp</h1>
-<p>${message}</p>
+<h1>Step04</h1>
 </body>
 </html>

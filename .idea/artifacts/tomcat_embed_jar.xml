@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="tomcat-embed:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/tomcat_embed_jar</output-path>
+    <root id="archive" name="tomcat-embed.jar">
+      <element id="module-output" name="tomcat-embed" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/11.0.1/tomcat-embed-core-11.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/tomcat/tomcat-annotations-api/11.0.1/tomcat-annotations-api-11.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
