@@ -1,6 +1,7 @@
 package servlets;
 
 import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -32,13 +33,10 @@ import java.io.IOException;
  * <p>요청이 위 URL로 들어오면, 브라우저는 "Hi, World!" 메시지를 출력합니다.</p>
  */
 @WebServlet("/step02")
-public class Step02WebServlet extends Step01WebXml {
+public class Step02WebServlet extends HttpServlet {
 
     /**
      * HTTP 요청을 처리하고 "Hi, World!" 메시지를 응답으로 반환합니다.
-     *
-     * <p>Step01Servlet의 {@code service()} 메서드를 오버라이드합니다. 이 메서드는 HTTP 요청의
-     * 메서드(GET, POST 등)에 관계없이 호출되며, 응답을 작성합니다.</p>
      *
      * @param req  클라이언트로부터의 HTTP 요청 객체
      * @param resp 클라이언트에게 보낼 HTTP 응답 객체
