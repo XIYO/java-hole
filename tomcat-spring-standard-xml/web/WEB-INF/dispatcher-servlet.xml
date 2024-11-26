@@ -20,6 +20,8 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <context:component-scan base-package="dev.xiyo" />
+
     <!-- 기본 서블릿 핸들러 활성화 -->
-<!--    <mvc:default-servlet-handler />-->
+    <mvc:default-servlet-handler />
 </beans>
