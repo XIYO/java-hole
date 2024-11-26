@@ -17,7 +17,7 @@ public class TomcatEmbedApplication {
         Tomcat tomcat = new Tomcat();
         tomcat.setPort(8080);
 
-        // 외부 접근 허용 (127.0.0.1)
+        // 내부 접근 허용 (127.0.0.1)
         Connector connector = tomcat.getConnector();
         connector.setProperty("address", "127.0.0.1");
 

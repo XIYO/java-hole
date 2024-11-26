@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="tomcat-spring-standard-code:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/tomcat_spring_standard_code_Web_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="tomcat-spring-standard-code/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="tomcat-spring-standard-code" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="apache.tomcat.servlet.api" />
+          <element id="library" level="project" name="fasterxml.jackson.core.annotations" />
+          <element id="library" level="project" name="fasterxml.jackson.core.databind" />
+          <element id="library" level="project" name="springframework.spring.context" />
+          <element id="library" level="project" name="jakarta.resource.api" />
+          <element id="library" level="project" name="springframework.spring.webmvc" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
