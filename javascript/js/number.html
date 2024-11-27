@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Background</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    button {
+      margin: 10px;
+      padding: 15px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+<h1>Click a button to change the background!</h1>
+<!-- 아래의 버튼 onclick 은 사용자가 버튼을 클릭했을 때
+발생하는 함수를 지정하는 속성입니다.
+어떠한 객체의 소유자인지 지정하지 않는다면 window.changeBackground() 처럼 window 객체의 메서드를 찾아서 실행합니다.
+window 가 가지고 있지 않는 메서드를 실행한다면 자바스크립트 콘솔로그 창에 오류를 띄웁니다.
+-->
+<button style="background-color: #FFDDC1;" onclick="changeBackground('#FFDDC1')">Peach</button>
+<button style="background-color: #FFABAB;" onclick="changeBackground('#FFABAB')">Pink</button>
+<button style="background-color: #FFC3A0;" onclick="changeBackground('#FFC3A0')">Coral</button>
+<button style="background-color: #D5AAFF;" onclick="changeBackground('#D5AAFF')">Lavender</button>
+<button style="background-color: #85E3FF;" onclick="changeBackground('#85E3FF')">Sky Blue</button>
+
+<script>
+  // 이렇게 함수를 만들면 결국 window 라는 전역 객체에 메서드가 추가되는 것이다.
+  function changeBackground(color) {
+    document.body.style.backgroundColor = color;
+  }
+</script>
+</body>
+</html>
