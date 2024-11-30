@@ -7,11 +7,12 @@
         <option value="$PROJECT_DIR$/tomcat-spring-board/pom.xml" />
         <option value="$PROJECT_DIR$/sign/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-maven/pom.xml" />
+        <option value="$PROJECT_DIR$/tomcat-maven-spring/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat-spring-board/pom.xml" />
       </set>
     </option>
