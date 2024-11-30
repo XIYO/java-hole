@@ -6,7 +6,6 @@ import org.apache.catalina.startup.Tomcat;
 import servlets.Step02;
 import servlets.Step04;
 import servlets.Step05;
-import servlets.Step06NonOption;
 
 import java.io.File;
 import java.sql.SQLException;
@@ -39,7 +38,6 @@ public class Application {
         tomcat.addServlet("", "step02", new Step02()); // @WebServlet 은 embed 에서는 자동 등록 되지 않는다.
         tomcat.addServlet("", "step04", new Step04());
         tomcat.addServlet("", "step05", new Step05());
-        tomcat.addServlet("", "step06", new Step06NonOption());
 
         // URL 매핑
 //        context.addServletMappingDecoded("/step01", "step01");
