@@ -12,5 +12,6 @@
   </head>
   <body>
   <h1>Step03</h1>
+  <p>/web/step03.jsp</p>
   </body>
 </html>

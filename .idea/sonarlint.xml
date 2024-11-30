@@ -3,6 +3,7 @@
   <component name="SonarLintProjectSettings">
     <option name="moduleMapping">
       <map>
+        <entry key="tomcat-embed" value="02-tomcat-embed" />
         <entry key="tomcat-spring-embed" value="spring" />
         <entry key="tomcat-spring-standard-code" value="tomcat-spring-standard" />
         <entry key="tomcat-standard" value="tomcat-standard" />

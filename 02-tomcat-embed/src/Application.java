@@ -31,7 +31,7 @@ public class Application {
         connector.setProperty("address", "127.0.0.1");
 
         // 웹 애플리케이션 디렉토리 설정
-        Context context = tomcat.addWebapp("/", webAppDirJoiner.toString());
+        Context context = tomcat.addWebapp("", webAppDirJoiner.toString());
 
         // 서블릿 추가 및 매핑
 //        tomcat.addServlet("", "step01", new Step01WebXml()); // web.xml로 등록하기 때문에 필요 없으며, 중복 등록시에는 에러
@@ -44,7 +44,6 @@ public class Application {
         context.addServletMappingDecoded("/step02", "step02");
         context.addServletMappingDecoded("/step04", "step04");
         context.addServletMappingDecoded("/step05", "step05");
-        context.addServletMappingDecoded("/step06", "step06");
 
         // 서블릿 등록
         StandardContext standardContext = (StandardContext) context;

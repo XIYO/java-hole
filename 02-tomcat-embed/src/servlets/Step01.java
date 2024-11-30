@@ -20,5 +20,7 @@ public class Step01 extends HttpServlet {
 
         // 응답 메시지 출력
         resp.getWriter().println("Hello, World!");
+        resp.getWriter().println("This is Step01 Servlet.");
+        resp.getWriter().println("class, src/servlets/Step01.java");
     }
 }

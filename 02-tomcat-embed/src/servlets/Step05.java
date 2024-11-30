@@ -16,7 +16,7 @@ public class Step05 extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         try {
             // JSP에 전달할 데이터 설정
-            req.setAttribute("message", "step05, WEB-INF/views"); // 데이터를 JSP로 전달
+            req.setAttribute("message", "step05, /web/WEB-INF/views/step05.jsp"); // JSP에 전달할 데이터 설정
 
             // JSP로 요청 포워딩
             req.getRequestDispatcher("/WEB-INF/views/step05.jsp").forward(req, resp); // JSP로 포워딩

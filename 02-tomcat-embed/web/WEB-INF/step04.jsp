@@ -12,5 +12,6 @@
 </head>
 <body>
 <h1>Step04</h1>
+<p>${message}</p>
 </body>
 </html>
