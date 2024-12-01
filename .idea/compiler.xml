@@ -7,8 +7,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tomcat-maven-spring" />
+        <module name="database-connection" />
         <module name="tomcat-maven" />
-        <module name="java-hole" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
