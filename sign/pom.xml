@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>dev.xiyo</groupId>
-    <artifactId>tomcat-maven-spring</artifactId>
+    <artifactId>sign</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>tomcat-maven-spring</name>
+    <name>sign</name>
     <packaging>war</packaging>
 
     <properties>
@@ -18,79 +18,41 @@
     </properties>
 
     <dependencies>
-<!--        서블릿(톰캣)에 넣기 위한 라이브러리 인터페이스 -->
         <dependency>
             <groupId>jakarta.servlet</groupId>
             <artifactId>jakarta.servlet-api</artifactId>
             <version>6.1.0</version>
             <scope>provided</scope>
         </dependency>
-
-<!--        테스트 관련 라이브러리 시작 -->
-<!--        테스트용 라이브러리 인터페이스 -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-<!--        테스트용 라이브러리 구현체-->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <version>${junit.version}</version>
             <scope>test</scope>
         </dependency>
-<!--        테스트 관련 라이브러리 종료 -->
-
-<!--        스프링 라이브러리 시작-->
-<!--        스프링 라이브러리 -->
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>6.2.0</version>
         </dependency>
 
-<!--        스프링 테스트 라이브러리 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>6.2.0</version>
-        </dependency>
-<!--        스프링 라이브러리 종료-->
-
-<!--        JSP에서 사용, 시작 -->
-<!--        JSP에서 사용하는 단축 문법 라이브러리, 인터페이스 -->
         <dependency>
             <groupId>jakarta.servlet.jsp.jstl</groupId>
             <artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
             <version>3.0.0</version>
         </dependency>
 
-<!--        JSP에서 사용하는 단축 문법 라이브러리, 구현체 -->
         <dependency>
             <groupId>org.glassfish.web</groupId>
             <artifactId>jakarta.servlet.jsp.jstl</artifactId>
             <version>3.0.1</version>
         </dependency>
-<!--        JSP에서 사용, 종료 -->
-
-<!--        데이터베이스 라이브러리 시작 -->
-<!--        데이터베이스 연동 라이브러리, 인터페이스 -->
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-jdbc</artifactId>
-            <version>5.3.29</version> <!-- 현재 프로젝트에 맞는 스프링 버전 사용 -->
-        </dependency>
-
-        <!--        데이터베이스 연동 라이브러리 구현체, MySQL  -->
-        <dependency>
-            <groupId>mysql</groupId>
-            <artifactId>mysql-connector-java</artifactId>
-            <version>8.0.27</version>
-        </dependency>
-<!--        데이터베이스 라이브러리 종료 -->
-
     </dependencies>
 
     <build>

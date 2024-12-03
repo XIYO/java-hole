@@ -6,7 +6,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc https://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
     <!-- 컴포넌트 스캔 설정, @Controller, @Service, @Repository, @Component -->
-    <context:component-scan base-package="dev.xiyo" />
+    <context:component-scan base-package="dev.xiyo.tomcatmavenspring.controller" />
 
     <!-- 뷰 리졸버 설정, JSP 경로 설정 -->
     <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

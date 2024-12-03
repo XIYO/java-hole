@@ -7,6 +7,10 @@
     <file url="file://$PROJECT_DIR$/03-tomcat-maven-spring/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database-connection/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/database-connection/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sign/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/signiture/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/signiture/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/tomcat-maven-spring/src/main/java" charset="UTF-8" />

@@ -7,12 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="tomcat-maven-spring" />
-        <module name="database-connection" />
+        <module name="sign" />
         <module name="tomcat-maven" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sign" target="21" />
+      <module name="database-connection" target="21" />
+      <module name="signiture" target="21" />
       <module name="tomcat-embed" target="21" />
       <module name="tomcat-spring-board" target="21" />
     </bytecodeTargetLevel>

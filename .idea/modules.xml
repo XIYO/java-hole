@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/java-hole.iml" filepath="$PROJECT_DIR$/java-hole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-tomcat-maven-spring/tomcat-maven-spring.iml" filepath="$PROJECT_DIR$/03-tomcat-maven-spring/tomcat-maven-spring.iml" />
       <module fileurl="file://$PROJECT_DIR$/01-tomcat-standard/tomcat-standard.iml" filepath="$PROJECT_DIR$/01-tomcat-standard/tomcat-standard.iml" />
     </modules>
   </component>

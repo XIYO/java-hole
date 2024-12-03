@@ -15,6 +15,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/signiture/pom.xml" />
         <option value="$PROJECT_DIR$/tomcat-spring-board/pom.xml" />
       </set>
     </option>
